@@ -1,0 +1,382 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+
+
+
+  /* Section-Hero*/
+
+
+
+.first-container{
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-color: #e4f9f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: poppins ,sans-serif;
+    padding-top: clamp(60px,10vw,180px);
+
+}
+
+img{
+    border-radius: 50%;
+}
+
+h1{
+    font-size: clamp(3rem,6vw,5rem);
+    color: #0c594b;
+    margin-bottom: 0px;
+    
+}
+
+.first-container .text h2{
+    font-size: 2.25rem;
+    color: #30a791;
+    margin-bottom: 100px;
+}
+
+    /* Section 2 - Info*/
+
+.second-container{
+    background-color: whitesmoke;
+       min-height: 100vh;
+       padding: 60px 20px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+      
+}
+
+
+.sec-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-container .sec-text p{
+    font-size: 1.3rem;
+    max-width: 700px;
+    text-align: center;
+}
+
+.second-container .sec-text h1{
+    margin-bottom: 40px;
+    font-family: poppins,sans-serif;
+}
+
+.second-container img{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+/* Section-3 Skills*/
+
+
+.third-container{
+    background-color: rgb(151, 237, 237);
+    padding: 70px 20px;
+}
+
+.third-container h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    font-family: poppins,sans-serif; 
+}
+
+.third-container img{
+    border-radius: 10px;
+}
+
+.third-container .first-skill{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+    gap: 35px;
+}
+
+.third-container .first-skill .firstskill-text h2{
+    font-size: 2rem;
+    padding-bottom: 15px;
+    padding-top: 10px;
+
+}
+.third-container .first-skill .firstskill-text p{
+    font-size: 1.50rem;
+
+}
+
+.third-container .second-skill{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    max-width: 900px;
+    width: 90%;
+    
+    margin: 50px auto;
+    gap: 35px;
+    
+}
+
+.third-container .second-skill .secondskill-text h2{
+     font-size: 2rem;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.third-container .second-skill .secondskill-text p{
+    font-size: 1.50rem;
+}
+
+.fourth-container{
+    background-color: #e4f9f5;
+    min-height: 60vh;
+    padding: 50px 20px;
+    
+}
+
+.fourth-container h2{
+    display: flex;
+    justify-content: center;
+    font-size: 5.25rem;
+    color: #0c594b;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+.fourth-container .fourthcontainer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth-container .fourthcontainer-text h3{
+    padding-bottom: 15px;
+    font-size: 2.25rem;
+}
+
+.fourth-container .fourthcontainer-text p{
+    font-size: 1.5rem;
+    padding-top: 50px;
+}
+
+.fifth-container{
+    background-color: rgb(167, 206, 240);
+    min-height: 40vh;
+    padding: 40px 20px;
+}
+
+.fifth-container h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    color: #1f7096;
+
+    font-size: 5.25rem;
+}
+
+.fifth-container .links{
+    display: flex;
+    
+
+    gap: 80px;
+    justify-content:  center;
+    padding-top: 50px;
+     
+
+}
+
+.fifth-container .links span{
+   
+    color: #30a791  ;
+    font-size: 1.5rem;
+   
+}
+
+h2{
+    font-family: Poppins,sans-serif;
+}
+
+.fifth-container h3{
+    padding-top: 50px;
+    text-align: center;
+    color: rgb(55, 53, 53);
+}
+
+
+
+
+/* Responsivenesss */
+
+@media(max-width:600px){
+
+    body{
+        width: 100%;
+    }
+
+    .first-container{
+        height: auto;
+    }
+
+    .first-container .text {
+        padding: 0px;
+        
+        margin-top: 50px;
+    }
+
+    .first-container .text h1{
+        font-size: 4.5rem;
+        margin-left: 40px;
+    }
+
+    .first-container .text h2{
+        
+        margin-left: 10px;
+    }
+
+    .first-container img{
+        margin-bottom: 70px;
+    }
+
+    .second-container{
+        height: auto;
+    }
+
+    .second-container img{
+        margin-top: 80px;
+    }
+
+    .second-container h1{
+        font-size: 4.5rem;
+    }
+
+    .second-container .sec-text p{
+        font-size: 1.35rem;
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    .third-container h1{
+        text-align: center;
+        font-size: 2.25rem;
+        margin: 0px;
+        padding-bottom: 40px;
+    }
+
+    .third-container .my-skills .first-skill{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        
+        gap: 20px;
+
+    }
+
+    .third-container .my-skills .first-skill img{
+        margin-left: 100px;
+        height: 200px;
+        width: 200px;
+
+    }
+
+    .third-container .my-skills .first-skill .firstskill-text h2{
+        font-size: 1.75rem;
+        margin-left: 40px
+    }
+
+    .third-container .my-skills .first-skill .firstskill-text p{
+        font-size: 1.25rem;
+        margin-left: 20px;
+        
+    }
+
+    .third-container .my-skills .second-skill img{
+        margin-left: 100px;
+        height: 200px;
+        width: 200px;
+
+    }
+
+    .third-container .my-skills .second-skill{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        margin : 30px 0;
+        gap: 20px;
+    }
+
+    .third-container .my-skills .second-skill h2{
+        text-align: center;
+    }
+
+    .third-container .my-skills .second-skill p{
+        margin-left: 20px;
+        font-size: 1.25rem;
+    }
+
+    .third-container{
+        
+        height: auto;
+    }
+
+    .third-container .first-skill{
+        margin: 0px;
+        width: 100%;
+    }
+
+    .my-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+
+}
+
+.fourth-container{
+    height: auto;
+    max-height: fit-content;
+}
+
+.fourth-container h2{
+    font-size: 2rem;
+}
+
+.fourth-container .fourthcontainer-text h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.fourth-container .fourthcontainer-text p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.fifth-container h2{
+    font-size: 2rem;
+}
+
+
+
+
+
+}
+
+    
+
+
